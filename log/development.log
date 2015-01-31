@@ -1,0 +1,50 @@
+
+
+Started GET "/assets/rails.png" for 101.108.103.106 at 2015-01-31 10:04:39 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (33ms)
+
+
+Started GET "/assets/rails.png" for 101.108.103.106 at 2015-01-31 10:05:00 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 101.108.103.106 at 2015-01-31 10:05:25 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 101.108.103.106 at 2015-01-31 10:06:37 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/movies/" for 101.108.103.106 at 2015-01-31 10:06:45 +0000
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 81.9ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 101.108.103.106 at 2015-01-31 10:08:52 +0000
+Connecting to database specified by database.yml
+
+
+Started GET "/movies" for 101.108.103.106 at 2015-01-31 10:08:53 +0000
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 76.9ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.2ms)
