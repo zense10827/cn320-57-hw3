@@ -1,3 +1,12 @@
+
+
+ชมพูนิกข์ ประกาารแก้ว 5510613325
+ณัฐณิชา เหลืองอ่อน 5510613424 
+URL :  https://rocky-scrubland-5562.herokuapp.com/movies
+
+
+
+
 RAILS INTRO - ADD FEATURES TO ROTTENPOTATOES
 ---------
 
